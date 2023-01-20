@@ -1,0 +1,11 @@
+{% extends 'flatpages/default.html' %}
+
+
+{% block content %}
+<h2>PAGE</h2>
+<hr>
+{{ flatpage.content }}
+<hr>
+{{ flatpage.content }}
+{% include 'flatpages/inc.html' %}
+{% endblock content %}

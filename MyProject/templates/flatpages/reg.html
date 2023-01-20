@@ -1,0 +1,10 @@
+{% extends 'flatpages/default.html' %}
+
+
+{% block content %}
+<h2>REG</h2>
+{{ flatpage.content }}
+<hr>
+<h3>only for registred person</h3>
+{% include 'flatpages/inc.html' %}
+{% endblock content %}
